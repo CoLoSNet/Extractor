@@ -22,3 +22,23 @@ Extractor Simulation can help us reveal the factors that affect the localization
   Figure 1. Contents of the Extractor Simulation
 
 - Ray-tracing Database: this folder contains ray-tracing databases of different environments. As shown in Figure 2, in one of the environment’s folders, there is a folder that includes the Remcom ray-tracing results named “Results_for_Mat,” some Matlab codes that have the positions of the agents and anchors, and a map.png which shows the map of the environment.
+
+### Step 2: Some parameters need to be set before running the main code, as shown in Figure 3. The parameters are in “SetEnvironment.m”, “SetTransmission.m”, and “SetAntenna.m”. First, let us set the parameters in “SetEnvironment.m”.
+- environment: choose an environment for simulation. The environment name should be the same as the folder name in the Ray-tracing Database. Currently, you can set it as
+‣	'Indoor office'
+‣	'Indoor shopping mall' 
+- PLOT: set for plotting environment and result or not. You can set it as
+‣	1: Yes.
+‣	0: No.
+- TX_index: choose the index of the anchor for simulation. You can set it as
+‣	'all': Simulation with all anchors
+‣	If you want to use a specific anchor for simulation, you can enter the index of the anchors after you see the map.png in the environment’s folder.
+- RX_mode: choose the simulation mode for simulation. You can set it as
+‣	'all': Simulation with all agents.
+‣	'trajectory': Simulation with agents on randomly generated trajectories.
+- traj_num: The number of the trajectory
+‣	1: If you set RX_mode = 'all', you must set traj_num = 1.
+‣	Otherwise, you can enter any number as the number of the trajectory.
+- traj_len: The length (step number) of a trajectory
+‣	1: If you set RX_mode = 'all', you must set traj_len = 1.
+‣	Otherwise,  you can enter any number as the length of the trajectory.
