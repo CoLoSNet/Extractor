@@ -28,31 +28,31 @@ Extractor Simulation can help us reveal the factors that affect the localization
   * 'Indoor office'
   * 'Indoor shopping mall' 
 - PLOT: set for plotting environment and result or not. You can set it as
-‣	1: Yes.
-‣	0: No.
+  * 1: Yes.
+  * 0: No.
 - TX_index: choose the index of the anchor for simulation. You can set it as
-‣	'all': Simulation with all anchors
-‣	If you want to use a specific anchor for simulation, you can enter the index of the anchors after you see the map.png in the environment’s folder.
+  * 'all': Simulation with all anchors
+  * If you want to use a specific anchor for simulation, you can enter the index of the anchors after you see the map.png in the environment’s folder.
 - RX_mode: choose the simulation mode for simulation. You can set it as
-‣	'all': Simulation with all agents.
-‣	'trajectory': Simulation with agents on randomly generated trajectories.
+  * 'all': Simulation with all agents.
+  * 'trajectory': Simulation with agents on randomly generated trajectories.
 - traj_num: The number of the trajectory
-‣	1: If you set RX_mode = 'all', you must set traj_num = 1.
-‣	Otherwise, you can enter any number as the number of the trajectory.
+  * 1: If you set RX_mode = 'all', you must set traj_num = 1.
+  * Otherwise, you can enter any number as the number of the trajectory.
 - traj_len: The length (step number) of a trajectory
-‣	1: If you set RX_mode = 'all', you must set traj_len = 1.
-‣	Otherwise,  you can enter any number as the length of the trajectory.
+  * 1: If you set RX_mode = 'all', you must set traj_len = 1.
+  * Otherwise,  you can enter any number as the length of the trajectory.
 
 ### Step 3: Set the parameters in “SetTransmission.m”.
--	noise_level: The noise variance.
--	fft_num: The FFT point.
--	sub_num: The number of the subcarrier.
--	f_subcar: The subcarrier spacing (Hz).
+- noise_level: The noise variance.
+- fft_num: The FFT point.
+- sub_num: The number of the subcarrier.
+- f_subcar: The subcarrier spacing (Hz).
 
 ### Step 4: Set the parameters in “SetAntenna.m”.
 - ant_pos: The antennas’ position relative to the first antenna. Each row contains the x, y, and z coordinates of each antenna, and the unit is half-wavelength.
-	For example, if you want to estimate the AoA of the signals with the array shown in Figure 4, you can set ant_pos = [[0 0 0];[1 0 0];[1 1 0];[0 1 0]];
-	ele_table: The estimation range of the elevation, which is 𝜙 in Figure 4.
-	azi_table: The estimation range of the azimuth, which is θ in Figure 4.
+  * For example, if you want to estimate the AoA of the signals with the array shown in Figure 4, you can set ant_pos = [[0 0 0];[1 0 0];[1 1 0];[0 1 0]];
+- ele_table: The estimation range of the elevation, which is 𝜙 in Figure 4.
+- azi_table: The estimation range of the azimuth, which is θ in Figure 4.
 
 
