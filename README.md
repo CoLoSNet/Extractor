@@ -30,6 +30,11 @@ Extractor Simulation can help us reveal the factors that affect the localization
 
 
 ### Step 2: Some parameters need to be set before running the main code, as shown in Figure 3. The parameters are in “SetEnvironment.m”, “SetTransmission.m”, and “SetAntenna.m”. First, let us set the parameters in “SetEnvironment.m”.
+
+![image](https://github.com/CoLoSNet/Extractor/assets/155145488/98528702-4cd7-475a-9fae-83ef95ab6cd3)
+
+Figure 3. The main code
+
 - environment: choose an environment for simulation. The environment name should be the same as the folder name in the Ray-tracing Database. Currently, you can set it as
   * 'Indoor office'
   * 'Indoor shopping mall' 
