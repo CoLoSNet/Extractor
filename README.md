@@ -42,3 +42,12 @@ Extractor Simulation can help us reveal the factors that affect the localization
 - traj_len: The length (step number) of a trajectory
 ‣	1: If you set RX_mode = 'all', you must set traj_len = 1.
 ‣	Otherwise,  you can enter any number as the length of the trajectory.
+
+### Step 3: Set the parameters in “SetTransmission.m”.
+-	noise_level: The noise variance.
+-	fft_num: The FFT point.
+-	sub_num: The number of the subcarrier.
+-	f_subcar: The subcarrier spacing (Hz).
+
+
+
