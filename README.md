@@ -26,8 +26,8 @@ Then, and download the main code “ExtractorSimulation.m” and a folder with s
   Figure 1. Contents of the Extractor Simulation
 </p>
 
-### Step 2: Download the ray-tracing database
-Download the “Wireless insite folder” from https://www.dropbox.com/scl/fo/8nqew4rvma2gc19gdx7uh/h?rlkey=xi80fcr4wdfwjzgonx6c0aymu&dl=0, and put it nect to “Extractor Simulation” folder. This folder contains ray-tracing databases of different environments. As shown in Figure 2, in one of the environment’s folders, there is a folder that includes the Remcom ray-tracing results named “Results_for_Mat,” some Matlab codes that have the positions of the agents and anchors, and a map.png which shows the map of the environment.
+### Step 2: Download the “Ray-tracing Database”
+Download the “Ray-tracing Database” folder from https://www.dropbox.com/scl/fo/8nqew4rvma2gc19gdx7uh/h?rlkey=xi80fcr4wdfwjzgonx6c0aymu&dl=0, and put it nect to “Extractor Simulation” folder. This folder contains ray-tracing databases of different environments. As shown in Figure 2, in one of the environment’s folders, there is a folder that includes the Remcom ray-tracing results named “Results_for_Mat,” some Matlab codes that have the positions of the agents and anchors, and a map.png which shows the map of the environment.
 
 <p align="center">
   <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/99f29803-3c72-4a17-bcc4-f5b353515924"/>
