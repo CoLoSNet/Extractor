@@ -15,19 +15,23 @@ When finding the agent’s position with the estimated location-bearing paramete
 Extractor Simulation can help us reveal the factors that affect the localization.
 
 ## How to use Extractor Simulation?
-### Step 1: Download the codes and folders
-- The main code named “ExtractorSimulation.m”
-- A folder with sub-functions named “functions" 
-- A folder named “Ray-tracing Database”
 
+### Step 1: Download the codes and folders, as shown in Figure 1
 
-### Step 2: Some parameters need to be set before running the main code, as shown in Figure 1. The parameters are in “SetEnvironment.m”, “SetTransmission.m”, and “SetAntenna.m”. First, let us set the parameters in “SetEnvironment.m”.
+<p align="center">
+  <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/6e67b2d4-53bd-4ca8-ae1d-e1549b06dd75"/>
+</p>
+<p align="center">
+  Figure 1. Contents of the Extractor Simulation
+</p>
+
+### Step 2: Some parameters need to be set before running the main code, as shown in Figure 2. The parameters are in “SetEnvironment.m”, “SetTransmission.m”, and “SetAntenna.m”. First, let us set the parameters in “SetEnvironment.m”.
 
 <p align="center">
   <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/98528702-4cd7-475a-9fae-83ef95ab6cd3"/>
 </p>
 <p align="center">
-  Figure 1. The main code
+  Figure 2. The main code
 </p>
 
 - environment: choose an environment for simulation. The environment name should be the same as the folder name in the Ray-tracing Database. Currently, you can set it as
