@@ -21,17 +21,6 @@ Extractor Simulation can help us reveal the factors that affect the localization
 - A folder named “Ray-tracing Database”
 
 
-### Step 2: Download the “Ray-tracing Database”
-Download the “Ray-tracing Database” folder from https://www.dropbox.com/scl/fo/8nqew4rvma2gc19gdx7uh/h?rlkey=xi80fcr4wdfwjzgonx6c0aymu&dl=0, and put it next to “Extractor Simulation” folder. This folder contains ray-tracing databases of different environments. As shown in Figure 2, in one of the environment’s folders, there is a folder that includes the Remcom ray-tracing results named “Results_for_Mat,” some Matlab codes that have the positions of the agents and anchors, and a map.png which shows the map of the environment.
-
-<p align="center">
-  <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/99f29803-3c72-4a17-bcc4-f5b353515924"/>
-</p>
-<p align="center">
-  Figure 2. Contents of one environment’s folder
-</p>
-
-
 ### Step 2: Some parameters need to be set before running the main code, as shown in Figure 3. The parameters are in “SetEnvironment.m”, “SetTransmission.m”, and “SetAntenna.m”. First, let us set the parameters in “SetEnvironment.m”.
 
 <p align="center">
