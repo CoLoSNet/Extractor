@@ -15,17 +15,10 @@ When finding the agent’s position with the estimated location-bearing paramete
 Extractor Simulation can help us reveal the factors that affect the localization.
 
 ## How to use Extractor Simulation?
-### Step 1: Download the codes and database
-First, download
-- the main code named “ExtractorSimulation.m”
-- a folder with sub-functions named “functions" 
-- a file named “Ray-tracing Database”
-Then, download the database
-ExtractorSimulation.m
-functions/
-Ray-tracing Database/
-  Indoor NSYSU
-  *.mat
+### Step 1: Download the codes and folders
+- The main code named “ExtractorSimulation.m”
+- A folder with sub-functions named “functions" 
+- A folder named “Ray-tracing Database”
 
 
 ### Step 2: Download the “Ray-tracing Database”
