@@ -18,7 +18,7 @@ Extractor Simulation can help us reveal the factors that affect the localization
 ### Step 1. Download the “Extractor Simulation” and “Ray-tracing Database” folders.
 - Extractor Simulation: As shown in Figure 1, this folder contains the main code “ExtractorSimulation.m” and a folder with sub-functions named “functions.”
 
-- <p align="center">
+<p align="center">
   <img src="[http://some_place.com/image.png](https://github.com/CoLoSNet/Extractor/assets/155145488/6d31a9a9-7472-44d9-9daf-a0e475204bea)" />
 </p>
 Figure 1. Contents of the Extractor Simulation
