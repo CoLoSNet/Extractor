@@ -20,6 +20,8 @@ Extractor Simulation can help us reveal the factors that affect the localization
 
 <p align="center">
   <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/6d31a9a9-7472-44d9-9daf-a0e475204bea"/>
+</p>
+<p align="center">
   Figure 1. Contents of the Extractor Simulation
 </p>
 
