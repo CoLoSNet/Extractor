@@ -26,10 +26,16 @@ Extractor Simulation can help us reveal the factors that affect the localization
 </p>
 
 
-
 - Ray-tracing Database: this folder contains ray-tracing databases of different environments. As shown in Figure 2, in one of the environment’s folders, there is a folder that includes the Remcom ray-tracing results named “Results_for_Mat,” some Matlab codes that have the positions of the agents and anchors, and a map.png which shows the map of the environment.
 
-  ![image](https://github.com/CoLoSNet/Extractor/assets/155145488/99f29803-3c72-4a17-bcc4-f5b353515924)
+<p align="center">
+  <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/99f29803-3c72-4a17-bcc4-f5b353515924"/>
+</p>
+<p align="center">
+  Figure 1. Contents of the Extractor Simulation
+</p>
+
+  ![image]()
 
   Figure 2. Contents of one environment’s folder
 
