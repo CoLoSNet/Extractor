@@ -39,9 +39,9 @@ Some parameters need to be set before running the main code, as shown in Figure 
 
 ### Step 4: Set the parameters in “SetEnvironment.m”.
 * `environment`: choose an environment for simulation. The environment name should be the same as the folder name in the Ray-tracing Database. Currently, you can set it as
+  * `'Indoor NSYSU'`
   * `'Indoor office'`
   * `'Indoor shopping mall'`
-  * `'Indoor NSYSU'`
 * `PLOT`: set for plotting environment and result or not. You can set it as
   * `1`: Yes.
   * `0`: No.
