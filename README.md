@@ -30,7 +30,7 @@ The “Ray-tracing Database” is a folder that contains ray-tracing databases o
   * XYGrid: https://www.dropbox.com/scl/fo/p7mkefqlcnpcfyhkr532z/h?rlkey=qfp2rg2jltxl8xaxmi39jd045&dl=0
 * Indoor office 
   * XYGrid: https://www.dropbox.com/scl/fo/yk8f48hzezjszr944s0jz/h?rlkey=20zscvense3tk4q5ip688t8nd&dl=0
-  * Trajectory: https://www.dropbox.com/scl/fo/ouac1hdtlpyhw1z0ntwue/h?rlkey=yk8jfz7roxmt9zv6l4lltdrfh&dl=0
+  * Trajectory: https://www.dropbox.com/scl/fo/91ougrw5cehouyt67xtv6/h?rlkey=upqyc9ie671mml66bsq3s690q&dl=0
 * Indoor shopping mall
   * XYGrid: https://www.dropbox.com/scl/fo/yutc5aain51skj6xdzrw0/h?rlkey=idlwkzdgqa7ob3whnhpgzdj0c&dl=0
 <p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/9920ef0e-aca7-4d60-b9a1-2d3c26e3523f" width='600'/></p>
