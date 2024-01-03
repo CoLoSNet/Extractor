@@ -57,6 +57,18 @@ Some parameters need to be set before running the main code, as shown in Figure 
   * `'XYGrid'`: Simulation with all agents.
   * `'RandomTraj'`: Simulation with agents on randomly generated trajectories.
   * `'LoadTraj'`: simulation with agents on designed trajectories.
+
+<div align="center">
+ 
+|           |                | environment   |                      |
+| :---:     | :---:          | :---:         | :---:                | 
+|RX_mode    |  Indoor NSYSU  | Indoor office | Indoor shopping mall |
+| XYGrid    | V              |  V            | V                    |
+|RandomTraj | V              |  V            | V                    |
+|LoadTraj   | X              |  V            | X                    |
+
+</div>
+
 * `traj_num`: The number of the trajectory
   * `1`: If you set `RX_mode = 'XYGrid'` or `RX_mode = 'LoadTraj'`, you must set `traj_num = 1`.
   * Otherwise, you can enter any number as the number of the trajectory.
