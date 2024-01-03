@@ -26,16 +26,16 @@ Extractor Simulation can help us reveal the factors that affect the localization
 
 ### Step 2: Download the database. 
 The “Ray-tracing Database” is a folder that contains ray-tracing databases of different environments. As shown in Figure 2, in one of the environment’s folders, there is a folder that includes the Remcom ray-tracing results named “Results_for_Mat,” some Matlab codes that have the positions of the agents and anchors, and a map.png which shows the map of the environment. The databases in the “Results_for_Mat” are needed to be download from the following link:
-*	Indoor NSYSU
+* Indoor NSYSU
   * XYGrid: https://www.dropbox.com/scl/fo/xwjguxrluynh4kdluh51a/h?rlkey=644a109m56otwbrj8gib1ji42&dl=0
-*	Indoor office:
-  *	XYGrid: https://www.dropbox.com/scl/fo/yk8f48hzezjszr944s0jz/h?rlkey=20zscvense3tk4q5ip688t8nd&dl=0
-  *	Trajectory: https://www.dropbox.com/scl/fo/ouac1hdtlpyhw1z0ntwue/h?rlkey=yk8jfz7roxmt9zv6l4lltdrfh&dl=0
-*	Indoor shopping mall:
-  *	XYGrid: https://www.dropbox.com/scl/fo/yutc5aain51skj6xdzrw0/h?rlkey=idlwkzdgqa7ob3whnhpgzdj0c&dl=0
+* Indoor office 
+  * XYGrid: https://www.dropbox.com/scl/fo/yk8f48hzezjszr944s0jz/h?rlkey=20zscvense3tk4q5ip688t8nd&dl=0
+  * Trajectory: https://www.dropbox.com/scl/fo/ouac1hdtlpyhw1z0ntwue/h?rlkey=yk8jfz7roxmt9zv6l4lltdrfh&dl=0
+* Indoor shopping mall
+  * XYGrid: https://www.dropbox.com/scl/fo/yutc5aain51skj6xdzrw0/h?rlkey=idlwkzdgqa7ob3whnhpgzdj0c&dl=0
 <p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/9920ef0e-aca7-4d60-b9a1-2d3c26e3523f" width='600'/></p>
 <p align="center">Figure 2. Contents of one environment’s folder</p>
-
+)
 
 ### Step 3: Open the main code with MATLAB.
 Some parameters need to be set before running the main code, as shown in Figure 3. The parameters are in “SetEnvironment.m”, “SetTransmission.m”, and “SetAntenna.m”. 
