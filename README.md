@@ -29,7 +29,7 @@ The “Ray-tracing Database” is a folder that contains ray-tracing databases o
 *	Indoor NSYSU: 
 *	Indoor office: 
 *	Indoor shopping mall:
-<p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/07ca2ae9-9c81-4512-aef1-55d2b82bace1"/></p>
+<p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/d17926cb-5a88-49a2-9cee-c1fc67ab5e46"/></p>
 <p align="center">Figure 2. Contents of one environment’s folder</p>
 
 ### Step 3: Open the main code with MATLAB.
