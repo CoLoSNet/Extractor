@@ -25,7 +25,8 @@ Extractor Simulation can help us reveal the factors that affect the localization
   Figure 1. Contents of the Extractor Simulation
 </p>
 
-### Step 2: Download the database. The “Ray-tracing Database” is a folder that contains ray-tracing databases of different environments. As shown in Figure 2, in one of the environment’s folders, there is a folder that includes the Remcom ray-tracing results named “Results_for_Mat,” some Matlab codes that have the positions of the agents and anchors, and a map.png which shows the map of the environment. The databases in the “Results_for_Mat” are needed to be download from the following link:
+### Step 2: Download the database. 
+The “Ray-tracing Database” is a folder that contains ray-tracing databases of different environments. As shown in Figure 2, in one of the environment’s folders, there is a folder that includes the Remcom ray-tracing results named “Results_for_Mat,” some Matlab codes that have the positions of the agents and anchors, and a map.png which shows the map of the environment. The databases in the “Results_for_Mat” are needed to be download from the following link:
 -	Indoor NSYSU: 
 -	Indoor office: 
 -	Indoor shopping mall:
