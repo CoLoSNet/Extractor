@@ -48,9 +48,7 @@ Some parameters need to be set before running the main code, as shown in Figure 
   Figure 3. The main code
 </p>
 
-
-### Step 5: Set the parameters in “SetEnvironment.m”.
-
+### Step 4: Set the parameters in “SetEnvironment.m”.
 - environment: choose an environment for simulation. The environment name should be the same as the folder name in the Ray-tracing Database. Currently, you can set it as
   * 'Indoor office'
   * 'Indoor shopping mall'
@@ -71,13 +69,13 @@ Some parameters need to be set before running the main code, as shown in Figure 
   * 1: If you set RX_mode = 'all', you must set traj_len = 1.
   * Otherwise,  you can enter any number as the length of the trajectory.
 
-### Step 6: Set the parameters in “SetTransmission.m”.
+### Step 5: Set the parameters in “SetTransmission.m”.
 - noise_level: The noise variance.
 - fft_num: The FFT point.
 - sub_num: The number of the subcarrier.
 - f_subcar: The subcarrier spacing (Hz).
 
-### Step 7: Set the parameters in “SetAntenna.m”.
+### Step 6: Set the parameters in “SetAntenna.m”.
 - ant_pos: The antennas’ position relative to the first antenna. Each row contains the x, y, and z coordinates of each antenna, and the unit is half-wavelength.
   * For example, if you want to estimate the AoA of the signals with the array shown in Figure 4, you can set ant_pos = [[0 0 0];[1 0 0];[1 1 0];[0 1 0]];
 - ele_table: The estimation range of the elevation, which is 𝜙 in Figure 4.
@@ -89,8 +87,7 @@ Some parameters need to be set before running the main code, as shown in Figure 
   Figure 4. An x-y planar array with four antennas
 </p>
 
-
-### Step 5: Run the main code. 
+### Step 7: Run the main code. 
 You will see the estimation results of the parameters between an anchor and an agent, as shown in Figure 5. In particular, the elevation ranges from -90˚ to 90˚, while -90˚ to -1˚ marked as 270˚ to 359˚ on the plot.
 <p align="center">
   <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/36d6f2b8-9d49-4632-9c75-ee842da4faf6"/>
