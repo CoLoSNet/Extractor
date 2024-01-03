@@ -1,11 +1,13 @@
 # Extractor
 MATLAB code for CSI extract simulation
 
+
 ## What is Extractor Simulation?
 Extractor Simulation is a tool that 
 - provides the database from Remcom 3D ray-tracing.
 - generates the channel frequency response (CFR) for different bandwidths and antenna arrays.
 - estimates the location-bearing parameters, such as received signal strength (RSS), time of arrival (TOA), or angle of arrival (AOA), of the propagation paths from the CFR.
+
 
 ## Why use Extractor Simulation?
 When finding the agent’s position with the estimated location-bearing parameters, the factors that affect the parameters’ estimation should be considered. For example, 
@@ -14,10 +16,10 @@ When finding the agent’s position with the estimated location-bearing paramete
 - the AOA estimation is affected by the number and arrangement of the antennas on the agent’s array.
 Extractor Simulation can help us reveal the factors that affect the localization.
 
+
 ## How to use Extractor Simulation?
 
 ### Step 1: Download the codes and folders, as shown in Figure 1
-
 <p align="center">
   <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/6e67b2d4-53bd-4ca8-ae1d-e1549b06dd75"/>
 </p>
@@ -30,7 +32,6 @@ The “Ray-tracing Database” is a folder that contains ray-tracing databases o
 -	Indoor NSYSU: 
 -	Indoor office: 
 -	Indoor shopping mall:
-
 <p align="center">
   <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/07ca2ae9-9c81-4512-aef1-55d2b82bace1"/>
 </p>
@@ -38,14 +39,17 @@ The “Ray-tracing Database” is a folder that contains ray-tracing databases o
   Figure 2. Contents of one environment’s folder
 </p>
 
-### Step 2: Some parameters need to be set before running the main code, as shown in Figure 2. The parameters are in “SetEnvironment.m”, “SetTransmission.m”, and “SetAntenna.m”. First, let us set the parameters in “SetEnvironment.m”.
-
+### Step 3: Open the main code with MATLAB.
+Some parameters need to be set before running the main code, as shown in Figure 3. The parameters are in “SetEnvironment.m”, “SetTransmission.m”, and “SetAntenna.m”. 
 <p align="center">
   <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/98528702-4cd7-475a-9fae-83ef95ab6cd3"/>
 </p>
 <p align="center">
-  Figure 2. The main code
+  Figure 3. The main code
 </p>
+
+
+### Step 4: Set the parameters in “SetEnvironment.m”.
 
 - environment: choose an environment for simulation. The environment name should be the same as the folder name in the Ray-tracing Database. Currently, you can set it as
   * 'Indoor office'
