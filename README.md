@@ -4,16 +4,16 @@ MATLAB code for CSI extract simulation
 
 ## What is Extractor Simulation?
 Extractor Simulation is a tool that 
-- provides the database from Remcom 3D ray-tracing.
-- generates the channel frequency response (CFR) for different bandwidths and antenna arrays.
-- estimates the location-bearing parameters, such as received signal strength (RSS), time of arrival (TOA), or angle of arrival (AOA), of the propagation paths from the CFR.
+* provides the database from Remcom 3D ray-tracing.
+* generates the channel frequency response (CFR) for different bandwidths and antenna arrays.
+* estimates the location-bearing parameters, such as received signal strength (RSS), time of arrival (TOA), or angle of arrival (AOA), of the propagation paths from the CFR.
 
 
 ## Why use Extractor Simulation?
 When finding the agent’s position with the estimated location-bearing parameters, the factors that affect the parameters’ estimation should be considered. For example, 
-- when the LoS path is blocked, the parameters of the LoS cannot be estimated.
-- when the bandwidth is small, it has a worse time-domain resolution. Thus, the dense multipath cannot be extracted accurately.
-- the AOA estimation is affected by the number and arrangement of the antennas on the agent’s array.
+* when the LoS path is blocked, the parameters of the LoS cannot be estimated.
+* when the bandwidth is small, it has a worse time-domain resolution. Thus, the dense multipath cannot be extracted accurately.
+* the AOA estimation is affected by the number and arrangement of the antennas on the agent’s array.
 Extractor Simulation can help us reveal the factors that affect the localization.
 
 
@@ -29,9 +29,9 @@ Extractor Simulation can help us reveal the factors that affect the localization
 
 ### Step 2: Download the database. 
 The “Ray-tracing Database” is a folder that contains ray-tracing databases of different environments. As shown in Figure 2, in one of the environment’s folders, there is a folder that includes the Remcom ray-tracing results named “Results_for_Mat,” some Matlab codes that have the positions of the agents and anchors, and a map.png which shows the map of the environment. The databases in the “Results_for_Mat” are needed to be download from the following link:
--	Indoor NSYSU: 
--	Indoor office: 
--	Indoor shopping mall:
+*	Indoor NSYSU: 
+*	Indoor office: 
+*	Indoor shopping mall:
 <p align="center">
   <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/07ca2ae9-9c81-4512-aef1-55d2b82bace1"/>
 </p>
@@ -49,37 +49,37 @@ Some parameters need to be set before running the main code, as shown in Figure 
 </p>
 
 ### Step 4: Set the parameters in “SetEnvironment.m”.
-- environment: choose an environment for simulation. The environment name should be the same as the folder name in the Ray-tracing Database. Currently, you can set it as
-  * <color #4BACC6> <_'Indoor office'_> </color>
-  * 'Indoor shopping mall'
-  * 'Indoor NSYSU'
-- PLOT: set for plotting environment and result or not. You can set it as
-  * 1: Yes.
-  * 0: No.
-- TX_index: choose the index of the anchor for simulation. You can set it as
-  * 'all': Simulation with all anchors
+* _environment_: choose an environment for simulation. The environment name should be the same as the folder name in the Ray-tracing Database. Currently, you can set it as
+  * _'Indoor office'_
+  * _'Indoor shopping mall'_
+  * _'Indoor NSYSU'_
+* _PLOT_: set for plotting environment and result or not. You can set it as
+  * _1_: Yes.
+  * _0_: No.
+* _TX_index_: choose the index of the anchor for simulation. You can set it as
+  * _'all'_: Simulation with all anchors
   * If you want to use a specific anchor for simulation, you can enter the index of the anchors after you see the map.png in the environment’s folder.
-- RX_mode: choose the simulation mode for simulation. You can set it as
-  * 'all': Simulation with all agents.
-  * 'trajectory': Simulation with agents on randomly generated trajectories.
-- traj_num: The number of the trajectory
-  * 1: If you set RX_mode = 'all', you must set traj_num = 1.
+* _RX_mode_: choose the simulation mode for simulation. You can set it as
+  * _'all'_: Simulation with all agents.
+  * _'trajectory'_: Simulation with agents on randomly generated trajectories.
+* traj_num: The number of the trajectory
+  * _1_: If you set _RX_mode = 'all'_, you must set _traj_num = 1_.
   * Otherwise, you can enter any number as the number of the trajectory.
-- traj_len: The length (step number) of a trajectory
-  * 1: If you set RX_mode = 'all', you must set traj_len = 1.
+* _traj_len_: The length (step number) of a trajectory
+  * _1_: If you set _RX_mode = 'all'_, you must set _traj_len = 1_.
   * Otherwise,  you can enter any number as the length of the trajectory.
 
 ### Step 5: Set the parameters in “SetTransmission.m”.
-- noise_level: The noise variance.
-- fft_num: The FFT point.
-- sub_num: The number of the subcarrier.
-- f_subcar: The subcarrier spacing (Hz).
+* _noise_level_: The noise variance.
+* _fft_num_: The FFT point.
+* _sub_num_: The number of the subcarrier.
+* _f_subcar_: The subcarrier spacing (Hz).
 
 ### Step 6: Set the parameters in “SetAntenna.m”.
-- ant_pos: The antennas’ position relative to the first antenna. Each row contains the x, y, and z coordinates of each antenna, and the unit is half-wavelength.
-  * For example, if you want to estimate the AoA of the signals with the array shown in Figure 4, you can set ant_pos = [[0 0 0];[1 0 0];[1 1 0];[0 1 0]];
-- ele_table: The estimation range of the elevation, which is 𝜙 in Figure 4.
-- azi_table: The estimation range of the azimuth, which is θ in Figure 4.
+* _ant_pos_: The antennas’ position relative to the first antenna. Each row contains the x, y, and z coordinates of each antenna, and the unit is half-wavelength.
+  * For example, if you want to estimate the AoA of the signals with the array shown in Figure 4, you can set _ant_pos = [[0 0 0];[1 0 0];[1 1 0];[0 1 0]];_
+* _ele_table_: The estimation range of the elevation, which is 𝜙 in Figure 4.
+* _azi_table_: The estimation range of the azimuth, which is θ in Figure 4.
 <p align="center">
   <img src="https://github.com/CoLoSNet/Extractor/assets/155145488/d0da6a35-fa5b-4090-b3c3-281b5c4619d1"/>
 </p>
