@@ -21,7 +21,7 @@ Extractor Simulation can help us reveal the factors that affect the localization
 
 
 ### Step 1: Download the codes and folders, as shown in Figure 1
-<p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/6e67b2d4-53bd-4ca8-ae1d-e1549b06dd75"/></p>
+<p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/6e67b2d4-53bd-4ca8-ae1d-e1549b06dd75" width='600'/></p>
 <p align="center">Figure 1. Contents of the Extractor Simulation</p>
 
 ### Step 2: Download the database. 
@@ -29,12 +29,12 @@ The “Ray-tracing Database” is a folder that contains ray-tracing databases o
 *	Indoor NSYSU: 
 *	Indoor office: 
 *	Indoor shopping mall:
-<p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/d17926cb-5a88-49a2-9cee-c1fc67ab5e46"/></p>
+<p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/d17926cb-5a88-49a2-9cee-c1fc67ab5e46" width='600'/></p>
 <p align="center">Figure 2. Contents of one environment’s folder</p>
 
 ### Step 3: Open the main code with MATLAB.
 Some parameters need to be set before running the main code, as shown in Figure 3. The parameters are in “SetEnvironment.m”, “SetTransmission.m”, and “SetAntenna.m”. 
-<p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/98528702-4cd7-475a-9fae-83ef95ab6cd3"/></p>
+<p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/98528702-4cd7-475a-9fae-83ef95ab6cd3" width='600'/></p>
 <p align="center">Figure 3. The main code</p>
 
 ### Step 4: Set the parameters in “SetEnvironment.m”.
@@ -69,7 +69,7 @@ Some parameters need to be set before running the main code, as shown in Figure 
   * For example, if you want to estimate the AoA of the signals with the array shown in Figure 4, you can set `ant_pos = [[0 0 0];[1 0 0];[1 1 0];[0 1 0]];`
 * `ele_table`: The estimation range of the elevation, which is 𝜙 in Figure 4.
 * `azi_table`: The estimation range of the azimuth, which is θ in Figure 4.
-<p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/d0da6a35-fa5b-4090-b3c3-281b5c4619d1"/></p>
+<p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/d0da6a35-fa5b-4090-b3c3-281b5c4619d1"width='400'/></p>
 <p align="center">Figure 4. An x-y planar array with four antennas</p>
 
 ### Step 7: Run the main code. 
