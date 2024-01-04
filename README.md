@@ -26,12 +26,12 @@ Extractor Simulation can help us reveal the factors that affect the localization
 
 ### Step 2: Download the database. 
 The “Ray-tracing Database” is a folder that contains ray-tracing databases of different environments. As shown in Figure 2, in one of the environment’s folders, there is a folder that includes the Remcom ray-tracing results named “Results_for_Mat,” some Matlab codes that have the positions of the agents and anchors, and a map.png which shows the map of the environment. The databases in the “Results_for_Mat” are needed to be download from the following link:
-* Indoor NSYSU
+* Indoor NSYSU (Center frequency 3.8GHz)
   * XYGrid: https://www.dropbox.com/scl/fo/p7mkefqlcnpcfyhkr532z/h?rlkey=qfp2rg2jltxl8xaxmi39jd045&dl=0
-* Indoor office 
+* Indoor office (Center frequency 5.805GHz)
   * XYGrid: https://www.dropbox.com/scl/fo/yk8f48hzezjszr944s0jz/h?rlkey=20zscvense3tk4q5ip688t8nd&dl=0
   * Trajectory: https://www.dropbox.com/scl/fo/91ougrw5cehouyt67xtv6/h?rlkey=upqyc9ie671mml66bsq3s690q&dl=0
-* Indoor shopping mall
+* Indoor shopping mall (Center frequency 5.805GHz)
   * XYGrid: https://www.dropbox.com/scl/fo/yutc5aain51skj6xdzrw0/h?rlkey=idlwkzdgqa7ob3whnhpgzdj0c&dl=0
 <p align="center"><img src="https://github.com/CoLoSNet/Extractor/assets/155145488/9920ef0e-aca7-4d60-b9a1-2d3c26e3523f" width='600'/></p>
 <p align="center">Figure 2. Contents of one environment’s folder</p>
